@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Maiores do Brasil">
+            <menu>
+                <item
+                    android:id="@+id/mImport"
+                    android:checked="true"
+                    android:icon="@drawable/santos"
+                    android:title="Import" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Maiores da Europa">
+            <menu>
+                <item
+                    android:id="@+id/mImport"
+                    android:checked="true"
+                    android:icon="@drawable/real"
+                    android:title="Import" />
+            </menu>
+        </item>
+    </group>
+</menu>
